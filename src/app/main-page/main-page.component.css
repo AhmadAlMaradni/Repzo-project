@@ -1,0 +1,140 @@
+.chartDev { 
+	display: block;
+	width: 650px;
+	height: 400px;
+ }
+
+ .chartDev canvas {
+ 	background-color: white;
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: 8px 7px #f1f1f1;
+    border-radius: 1px;
+    margin-left: 21px;
+ }
+
+ .selectpage {
+ 	margin-bottom: 20px;
+ }
+
+ .filterBtn {
+    background-color: #00a0ff;
+    margin-bottom: 15px;
+    margin-top: 13px;
+    max-height: 32px;
+ }
+
+ .columnBtn {
+    background-color: #e8c025;
+    margin-bottom: 15px;
+    margin-top: 13px;
+    max-height: 32px;
+ }
+
+
+ .filterForm {
+ 	background-color: white;
+ 	border: 0px solid;
+ 	box-shadow: 8px 7px #f1f1f1;
+ }
+
+ .minTable {
+    margin-left: 21px;
+    margin-top: 34px;
+    background-color: white;
+	border: 0px solid;
+    box-shadow: 8px 7px #f1f1f1;
+ }
+
+ .bigRow {
+	background-color: #f5f5f5;
+	margin: 0px
+}
+
+.exa-container {
+	margin-top: 76px;
+}
+
+.example-card {
+  width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.hrInvoice {
+    background-color: #0190e4;
+    height: 2px;
+
+}
+
+.mat-dialog-container {
+      width: 750px;
+
+}
+
+.RepsInfo {
+    margin-top: 30%;
+}
+
+.clientInfo{
+    margin-top: 25px;
+    margin-bottom: 27px;
+    color: #2e314c;
+}
+
+.trTable {
+    height: 50px;
+    border-top: solid 1px #d4d4d4;
+}
+
+.totalPrice{
+    border-top: solid 2px #d4d4d4;
+    margin-top: 18px;
+    margin-right: 17px;
+}
+
+.totalSpac{
+    margin-left: 60px;
+   color: #0190e4;
+}
+
+.PrintBtn{
+    background-color: white;
+    max-height: 32px;
+    color: black;
+    width: 122px;
+}
+
+.h4total{
+    margin-bottom: 21px;
+}
+
+.search-header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -6%;
+}
+
+.comoSearch {
+    margin-top: -38px
+}
+
+.midHr {
+    margin-bottom: 0px;
+}
+
+
+.fa-file-text-o{
+    color: #2e314c;
+}
+
+.RepsInfo h4 {
+    color: #2e314c;
+}
+
+.invoiceLabel {
+    color: #2e314c;
+}

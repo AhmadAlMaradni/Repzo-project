@@ -1,0 +1,92 @@
+.mainNav {
+	background-color: #0190e4;
+}
+
+.bellIcon {
+	color: white;
+    font-size: 18px;
+}
+
+.rebzoLogo {
+	width: 129px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.sidebarNav button {
+	margin-left: 15px;
+    background-color: white;
+    border: none;
+    margin-bottom: 18px;
+}
+
+.sidebar {
+    background-color: white;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.sidebar h1 {
+    color: white;
+}
+
+.portfolio {
+    background-color: #f5f5f5;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    right: 0;
+    bottom: 0;
+    
+    -moz-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+}
+
+input[type=checkbox] {
+   display: none;
+}
+
+input:checked ~ .portfolio { 
+    left: 0;
+}
+
+input:checked ~ label {
+    left: 0;
+}
+
+label {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 157px;
+    
+    -moz-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+
+    background-color: #0290e4;
+    color: white;
+    font-size: 34px;
+    margin-top: 2px;
+}
+
+.img-sm {
+  width: 29px;
+  height: 29px;
+  border-radius: 47px;
+  margin-top: 10px;
+}
+
+.nameProf {
+    margin-top: 14px;
+    margin-left: 10px;
+    color: white;
+}
+
+.infoCorner {
+    margin-right: -13px;
+    background-color: #097ec3;
+}

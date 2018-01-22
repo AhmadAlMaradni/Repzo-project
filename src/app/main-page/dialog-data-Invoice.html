@@ -1,0 +1,59 @@
+<div class="row">
+	<div class="col-md-8">
+		<h3><i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp; Invoice</h3>
+		<hr class="hrInvoice">
+		<h4 class="clientInfo">Client info:</h4>
+			<p>Cozmo</p>
+			<p>Amman-jordan</p>
+			<p>Khalda</p>
+			<p>Post Code 11910</p>
+	</div>	
+
+	<div class="col-md-4">
+		<h5>invoice Ref: #0000000</h5>
+		<h5>invoice Date: 26.December.2017</h5>
+
+		<div class="RepsInfo">
+			<h4>Reps info:</h4>
+			<p>Mohammad Abduallah</p>
+			<p>Mohamad@gmail.com</p>
+			<p>0096200000000</p>
+		</div>
+	</div>
+</div>
+<hr class="midHr">
+<div class="row">
+<h3 class="invoiceLabel">Invoice Summary</h3><br>
+
+<table style="width:100%">
+  <tr>
+    <th>ID</th>
+    <th>Barcode</th> 
+    <th>Qty</th>
+    <th>Price</th>
+    <th>Total</th>
+    <th>Discount</th>
+    <th>SubTotal</th>
+    <th>Tax</th>
+    <th>Grand Total</th>
+  </tr>
+  <tr class="trTable">
+    <td>01</td>
+    <td>223344</td>
+    <td>12</td>
+    <td>00.1</td>
+    <td>3</td>
+    <td>4</td>
+    <td>1</td>
+    <td>31%</td>
+    <td>3.03</td>
+  </tr>
+</table>
+
+<div class="pull-right totalPrice">
+	<h5 class="h4total">SubTotal: <span class=" pull-right"> 3.00 JOD</span></h5>
+	<h5 class="h4total">Taxes:    <span class="pull-right"> 0.03 JOD</span></h5>
+	<h5>Total:    <span class="totalSpac pull-right"> 3.03 JOD</span></h5><br>
+	<button mat-raised-button color="primary" class="pull-right PrintBtn">Print &nbsp;<i class="fa fa-print" aria-hidden="true"></i></button>
+</div>
+</div>
